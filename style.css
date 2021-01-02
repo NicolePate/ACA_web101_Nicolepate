@@ -1,9 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(background4.jpg);
+    /* background-image: url(background4.jpg); */
+    background-color: rgb(10, 10, 69);
     height: 100%;
-    width: 960px;
-    margin: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,10 +29,12 @@ body {
     float: left;
     height: 20px;
     width: 100px;
-    display: block; 
+    /* display: block;  */
     padding: 20px 15px;
     font-family: Arial, Helvetica, sans-serif;
     color:white;
+    margin-right: 10px;
+    margin-bottom: 80px;
     font-size: 15px;
     border-radius: 50px;
     background:aqua;
@@ -52,35 +53,39 @@ body {
 } 
 
 #container {
-  display: flex;
-  justify-content: left;
-  margin-left: 10%;
+  /* display: flex; */
+  float: center;
+  width: 100%;
+  /* justify-content: left;
+  margin-left: 10%; */
  
 }
+
 .left {
   background-color: hsla(0,0%,100%,.4);
-  float: left;
+  width: 100%;
+  float: center;
   align-items: center;
-  margin-top: 5%;
-  
-  margin-bottom: 20%;
+  /* margin-top: 5%;
+  margin-bottom: 20%; */
 }
+
 h1 {
   font-size: 70px;
-  color: LightCoral;
+  color: aqua;
   margin-top: 10px;
   margin-bottom: 5px;
   
 }
 h2{
   font-size: 40px;
-  color: LightCoral;
+  color: aqua;
   margin-top: 0px;
   margin-bottom: 40px;
 }
 h3 {
   font-size: 15px;
-  color: LightCoral;
+  color: aqua;
   margin: 0px;
 }
 
@@ -141,7 +146,7 @@ a:hover {
   position: absolute;
   left: -800px;
   width: 1000px;
-  height: 100px;
+  height: 50px;
   -webkit-animation: slide 0.5s forwards;
   -webkit-animation-delay: 2s;
   animation: slide 1.0s forwards;
