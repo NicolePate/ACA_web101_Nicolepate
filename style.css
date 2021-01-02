@@ -58,6 +58,7 @@ body {
  
 }
 .left {
+  background-color: hsla(0,0%,100%,.4);
   float: left;
   align-items: center;
   margin-top: 5%;
