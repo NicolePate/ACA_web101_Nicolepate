@@ -167,10 +167,15 @@ a:hover {
   height: 100%;
   margin-top: 50px;
 }
+.title-projects{
+  float: center;
+  text-align: center;
+  margin-top: 5%;
+}
 
 #projects{
   margin-top: 40px;
-  height: 200px;
+  height: 300px;
   overflow: scroll;
 }
 
@@ -204,9 +209,10 @@ figure {
 
 
 
-#about { 
+.about { 
     border-radius: 50px;
     background: aqua;
+    float: center;
     text-align: center;
     padding: 10px;
     width: 500px;
