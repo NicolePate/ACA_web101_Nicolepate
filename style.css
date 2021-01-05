@@ -312,7 +312,7 @@ figure {
   animation: swinging 3.5s ease-in-out forwards infinite;
 }
 
-/* width */
+/* widthg */
 ::-webkit-scrollbar {
   width: 20px;
 }
