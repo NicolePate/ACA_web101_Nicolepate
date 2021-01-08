@@ -63,6 +63,7 @@ body {
 
 .left {
   background-color: hsla(0,0%,100%,.4);
+margin-top: 35px;
   width: 100%;
   height:350px;
   float: center;
@@ -182,7 +183,7 @@ a:hover {
 
 .projectsleft {
   float: left;
-  margin-left: 20%;
+  margin-left: 15%;
   /* display: flex;
   flex-direction: column;
   float: left;
@@ -191,7 +192,7 @@ a:hover {
 
 .projectsright {
   float: right;
-  margin-right: 20%;
+  margin-right: 15%;
   /* display: flex;
   float: right;
   flex-direction: column;  
